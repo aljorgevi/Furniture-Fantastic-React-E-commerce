@@ -22,17 +22,19 @@ const FeaturedProducts = () => {
   }
 
   return (
-    <Wrapper className="section">
-      <div className="title">
+    <Wrapper className='section'>
+      <div className='title'>
         <h2>featured products</h2>
-        <div className="underline"></div>
+        <div className='underline'></div>
       </div>
-      <div className="section-center featured">
+      <div className='section-center featured'>
         {featured.slice(0, 3).map((product) => {
           return <Product key={product.id} {...product} />;
         })}
       </div>
-      products
+      <Link to='prducts' className='btn'>
+        all products
+      </Link>
     </Wrapper>
   );
 };
