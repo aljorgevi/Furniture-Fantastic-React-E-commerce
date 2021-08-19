@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo2.svg';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { links } from '../utils/constants';
@@ -60,7 +60,8 @@ const Container = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 175px;
+      margin-top: 10px;
+      width: 275px;
       margin-left: -15px;
     }
   }

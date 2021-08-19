@@ -32,7 +32,7 @@ const FeaturedProducts = () => {
           return <Product key={product.id} {...product} />;
         })}
       </div>
-      <Link to='prducts' className='btn'>
+      <Link to='/products' className='btn'>
         all products
       </Link>
     </Wrapper>
