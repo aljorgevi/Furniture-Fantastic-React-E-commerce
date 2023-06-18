@@ -6,7 +6,7 @@ const Footer = () => {
     <Wrapper>
       <h5>
         &copy; {new Date().getUTCFullYear()}
-        <span> ComfySloth</span>
+        <span> Furniture Fantastic</span>
       </h5>
       <h5>All rights reserved</h5>
     </Wrapper>
